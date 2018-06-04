@@ -1,0 +1,8 @@
+gender,position,late,lecture,repeat,reply,"entrance examination",majority,type,age,location,timetogotobed,"provincial part",class
+male,middle,sometimes,sometimes,sometimes,sometimes,great,science-math,highschool,17,dormitory,bfmid,east,success
+male,front,never,never,sometimes,never,admission,art-math,highschool,19,dormitory,afmid,central,success
+female,front,never,often,never,sometimes,area,art-math,highschool,19,dormitory,afmid,northeast,fail
+female,middle,often,never,often,often,great,vocational,vocational,18,outside,bfmid,southern,success
+female,behind,sometimes,often,sometimes,sometimes,test,vocational,highschool,19,house,bfmid,north,fail
+male,behind,often,never,sometimes,never,test,art-language,highschool,19,outside,afmid,central,success
+female,middle,sometimes,sometimes,sometimes,,area,art-math,highschool,17,dormitory,afmid,east,?

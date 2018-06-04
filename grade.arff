@@ -1,0 +1,128 @@
+@relation grade.arff
+
+@attribute gender {male,female}
+@attribute position {middle,front,behind}
+@attribute late {sometimes,never,often}
+@attribute lecture {sometimes,never,often}
+@attribute repeat {sometimes,never,often}
+@attribute reply {sometimes,never,often}
+@attribute 'entrance examination' {great,admission,area,test}
+@attribute majority {science-math,art-math,vocational,art-language}
+@attribute type {highschool,vocational}
+@attribute age numeric
+@attribute location {dormitory,outside,house}
+@attribute timetogotobed {bfmid,afmid}
+@attribute 'provincial part' {east,central,northeast,southern,north}
+@attribute class {success,fail}
+
+@data
+male,middle,sometimes,sometimes,sometimes,sometimes,great,science-math,highschool,17,dormitory,bfmid,east,success
+male,front,never,never,sometimes,sometimes,admission,art-math,highschool,19,dormitory,afmid,central,success
+female,front,never,never,sometimes,sometimes,area,art-math,highschool,19,dormitory,afmid,east,fail
+female,middle,never,never,sometimes,never,great,vocational,vocational,18,outside,bfmid,central,success
+female,behind,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,19,outside,bfmid,east,fail
+female,behind,sometimes,sometimes,sometimes,sometimes,great,vocational,vocational,18,outside,bfmid,central,fail
+male,behind,often,often,sometimes,sometimes,area,vocational,vocational,18,outside,afmid,east,success
+male,middle,never,sometimes,sometimes,sometimes,area,art-math,highschool,19,outside,bfmid,northeast,success
+female,middle,sometimes,sometimes,sometimes,never,area,science-math,highschool,18,outside,afmid,east,success
+female,front,often,often,sometimes,sometimes,great,art-math,highschool,18,outside,afmid,central,success
+male,behind,often,sometimes,sometimes,sometimes,test,art-math,highschool,19,outside,bfmid,central,fail
+male,middle,never,sometimes,sometimes,sometimes,great,science-math,highschool,18,dormitory,afmid,east,success
+male,middle,never,often,sometimes,often,great,art-math,highschool,18,dormitory,afmid,central,fail
+female,front,never,often,sometimes,sometimes,great,art-math,highschool,17,dormitory,bfmid,central,success
+male,front,never,sometimes,sometimes,never,admission,art-math,highschool,18,dormitory,afmid,central,fail
+male,middle,sometimes,sometimes,sometimes,sometimes,admission,science-math,highschool,18,dormitory,bfmid,central,fail
+female,middle,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,18,dormitory,bfmid,southern,fail
+female,middle,never,sometimes,sometimes,sometimes,great,science-math,highschool,18,dormitory,bfmid,north,fail
+female,middle,sometimes,sometimes,sometimes,never,test,science-math,highschool,18,dormitory,bfmid,central,fail
+male,front,never,sometimes,sometimes,often,test,science-math,highschool,19,dormitory,bfmid,central,success
+female,front,never,sometimes,never,sometimes,test,science-math,highschool,19,dormitory,bfmid,northeast,success
+female,middle,never,sometimes,never,sometimes,area,art-math,highschool,18,outside,bfmid,east,success
+female,middle,sometimes,sometimes,sometimes,never,test,science-math,highschool,18,outside,bfmid,central,fail
+male,middle,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,19,dormitory,afmid,central,fail
+female,middle,never,often,sometimes,sometimes,admission,art-math,highschool,18,outside,afmid,east,success
+female,middle,sometimes,often,sometimes,sometimes,area,science-math,highschool,20,dormitory,bfmid,east,fail
+male,front,never,sometimes,sometimes,sometimes,area,art-math,highschool,19,dormitory,afmid,east,fail
+female,front,never,often,sometimes,sometimes,area,science-math,highschool,18,dormitory,bfmid,central,fail
+male,middle,sometimes,never,often,sometimes,admission,science-math,highschool,20,outside,afmid,central,fail
+female,front,sometimes,sometimes,never,sometimes,test,science-math,highschool,18,dormitory,afmid,central,fail
+male,middle,sometimes,sometimes,sometimes,never,area,science-math,highschool,18,house,bfmid,east,success
+female,front,never,sometimes,sometimes,sometimes,great,art-math,highschool,17,dormitory,bfmid,central,success
+male,behind,sometimes,sometimes,sometimes,sometimes,test,art-math,highschool,19,house,afmid,central,fail
+male,middle,never,sometimes,sometimes,often,area,art-math,highschool,19,outside,afmid,central,fail
+male,behind,often,never,sometimes,never,test,art-language,highschool,19,outside,afmid,central,success
+female,front,often,sometimes,never,often,area,science-math,highschool,19,dormitory,afmid,central,fail
+male,front,often,never,sometimes,often,admission,art-math,highschool,18,dormitory,afmid,central,success
+male,middle,never,sometimes,sometimes,sometimes,great,art-math,highschool,19,outside,bfmid,central,success
+male,behind,never,sometimes,often,often,area,science-math,highschool,19,house,bfmid,east,success
+male,middle,sometimes,sometimes,never,sometimes,great,vocational,vocational,19,outside,afmid,central,fail
+female,front,never,sometimes,sometimes,often,area,art-math,highschool,18,dormitory,bfmid,central,fail
+male,behind,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,18,dormitory,bfmid,central,fail
+male,middle,often,sometimes,sometimes,sometimes,admission,science-math,highschool,17,outside,afmid,east,success
+female,middle,sometimes,sometimes,sometimes,sometimes,test,art-math,highschool,18,house,bfmid,east,fail
+male,front,sometimes,sometimes,sometimes,sometimes,admission,science-math,highschool,18,dormitory,afmid,central,success
+male,middle,sometimes,never,sometimes,sometimes,test,science-math,highschool,18,outside,afmid,central,success
+male,behind,never,never,never,never,great,art-math,highschool,18,outside,afmid,east,fail
+male,middle,often,sometimes,sometimes,sometimes,admission,art-language,highschool,19,outside,afmid,central,fail
+male,middle,never,sometimes,sometimes,often,area,art-math,highschool,19,outside,bfmid,northeast,fail
+female,middle,never,sometimes,never,never,admission,science-math,highschool,18,dormitory,afmid,central,fail
+female,middle,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,19,dormitory,afmid,central,fail
+female,front,sometimes,often,sometimes,sometimes,great,art-math,highschool,19,dormitory,bfmid,central,success
+female,middle,never,sometimes,sometimes,sometimes,great,art-math,highschool,19,dormitory,bfmid,central,fail
+male,middle,never,sometimes,sometimes,sometimes,area,science-math,highschool,18,dormitory,afmid,northeast,fail
+male,behind,sometimes,sometimes,sometimes,sometimes,test,art-language,highschool,18,outside,afmid,central,fail
+male,behind,sometimes,often,sometimes,sometimes,admission,art-math,highschool,19,outside,bfmid,central,success
+male,middle,often,sometimes,sometimes,sometimes,admission,art-math,highschool,18,house,bfmid,central,success
+male,middle,often,sometimes,sometimes,sometimes,admission,art-math,highschool,18,house,bfmid,central,success
+male,behind,sometimes,never,never,never,test,science-math,highschool,19,outside,bfmid,central,fail
+female,middle,never,sometimes,never,often,area,science-math,highschool,18,dormitory,afmid,east,success
+male,front,never,sometimes,sometimes,sometimes,admission,art-math,highschool,18,dormitory,bfmid,central,fail
+female,behind,never,sometimes,never,never,test,vocational,vocational,19,house,bfmid,northeast,success
+male,behind,often,sometimes,sometimes,sometimes,test,science-math,highschool,19,outside,bfmid,central,fail
+female,behind,often,sometimes,sometimes,sometimes,test,science-math,highschool,18,dormitory,afmid,central,fail
+male,middle,sometimes,sometimes,sometimes,never,test,science-math,highschool,18,outside,afmid,central,fail
+male,middle,sometimes,sometimes,often,sometimes,test,science-math,highschool,19,outside,afmid,central,success
+male,middle,sometimes,sometimes,sometimes,sometimes,test,art-math,highschool,19,dormitory,bfmid,central,fail
+male,middle,never,often,sometimes,often,great,art-math,highschool,17,house,afmid,central,success
+male,middle,never,sometimes,never,sometimes,admission,art-math,highschool,18,dormitory,bfmid,north,fail
+male,middle,never,sometimes,sometimes,sometimes,admission,art-math,highschool,18,outside,afmid,central,fail
+male,behind,sometimes,never,often,never,great,vocational,vocational,18,house,afmid,central,success
+male,front,sometimes,never,sometimes,often,great,art-math,highschool,18,dormitory,bfmid,central,success
+female,middle,sometimes,never,sometimes,sometimes,admission,art-language,highschool,18,dormitory,afmid,north,fail
+female,front,sometimes,often,sometimes,sometimes,test,vocational,vocational,20,outside,bfmid,central,success
+male,front,sometimes,sometimes,sometimes,sometimes,admission,art-math,highschool,19,dormitory,afmid,central,fail
+male,middle,never,sometimes,sometimes,sometimes,test,art-math,highschool,18,outside,bfmid,east,fail
+female,front,often,sometimes,sometimes,sometimes,area,science-math,highschool,18,dormitory,bfmid,east,fail
+female,middle,often,sometimes,sometimes,sometimes,area,science-math,highschool,18,dormitory,afmid,east,fail
+male,middle,sometimes,sometimes,often,sometimes,test,science-math,highschool,18,dormitory,bfmid,northeast,success
+male,front,sometimes,never,sometimes,sometimes,admission,science-math,highschool,17,dormitory,bfmid,central,success
+male,middle,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,19,outside,afmid,central,fail
+male,middle,often,sometimes,sometimes,sometimes,admission,science-math,highschool,20,dormitory,bfmid,central,fail
+female,middle,sometimes,often,never,never,great,art-math,highschool,18,dormitory,afmid,east,success
+female,front,sometimes,sometimes,never,sometimes,test,science-math,highschool,19,dormitory,afmid,northeast,fail
+male,behind,sometimes,never,sometimes,sometimes,admission,art-language,highschool,20,outside,afmid,central,fail
+male,middle,never,sometimes,sometimes,sometimes,test,science-math,highschool,18,outside,bfmid,east,success
+male,middle,never,sometimes,sometimes,sometimes,area,art-math,highschool,19,dormitory,bfmid,east,success
+male,middle,sometimes,sometimes,often,often,area,vocational,vocational,19,outside,afmid,east,success
+male,middle,sometimes,sometimes,sometimes,sometimes,area,art-math,highschool,19,outside,afmid,east,fail
+male,middle,sometimes,sometimes,sometimes,never,test,art-math,highschool,18,dormitory,bfmid,southern,fail
+male,middle,sometimes,sometimes,never,never,great,vocational,vocational,20,outside,afmid,central,fail
+male,middle,sometimes,sometimes,never,sometimes,admission,science-math,highschool,19,outside,afmid,east,fail
+female,front,never,often,sometimes,sometimes,admission,science-math,highschool,17,outside,afmid,central,success
+female,middle,sometimes,sometimes,sometimes,sometimes,test,science-math,highschool,19,outside,bfmid,east,fail
+male,front,sometimes,never,sometimes,sometimes,test,science-math,highschool,22,outside,afmid,east,fail
+male,behind,sometimes,sometimes,often,often,test,vocational,vocational,19,outside,bfmid,central,success
+male,front,often,never,sometimes,sometimes,admission,science-math,highschool,19,dormitory,bfmid,central,success
+male,behind,often,often,never,often,area,art-language,highschool,17,house,afmid,southern,success
+male,front,sometimes,often,often,never,test,art-math,highschool,19,dormitory,bfmid,central,fail
+female,behind,never,sometimes,often,never,admission,science-math,highschool,19,house,afmid,east,success
+female,middle,sometimes,often,sometimes,never,great,vocational,vocational,17,house,afmid,northeast,fail
+male,front,sometimes,never,never,sometimes,admission,science-math,highschool,18,outside,bfmid,east,success
+female,middle,often,often,sometimes,often,test,art-math,highschool,19,outside,afmid,central,success
+male,behind,never,sometimes,never,often,admission,art-language,highschool,18,house,bfmid,east,success
+female,middle,often,sometimes,sometimes,never,admission,art-math,highschool,17,house,bfmid,southern,success
+male,middle,never,sometimes,often,never,test,vocational,vocational,19,outside,afmid,north,success
+female,middle,sometimes,sometimes,often,often,area,vocational,vocational,18,outside,bfmid,central,fail
+female,front,often,never,never,never,test,vocational,vocational,19,outside,bfmid,northeast,success
+male,front,sometimes,sometimes,sometimes,often,great,art-language,highschool,19,outside,bfmid,southern,fail
+male,behind,often,often,sometimes,sometimes,great,vocational,vocational,19,dormitory,bfmid,northeast,success

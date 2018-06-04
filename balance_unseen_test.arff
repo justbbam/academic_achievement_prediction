@@ -1,0 +1,26 @@
+@relation balance_csv
+
+@attribute gender {male,female}
+@attribute position {middle,front,behind}
+@attribute late {sometimes,never,often}
+@attribute lecture {sometimes,never,often}
+@attribute repeat {sometimes,never,often}
+@attribute reply {sometimes,never,often}
+@attribute 'entrance examination' {great,admission,area,test}
+@attribute majority {science-math,art-math,vocational,art-language}
+@attribute type {highschool,vocational}
+@attribute age numeric
+@attribute location {dormitory,outside,house}
+@attribute timetogotobed {bfmid,afmid}
+@attribute 'provincial part' {east,central,northeast,southern,north}
+@attribute class {success,fail}
+
+@data
+
+male,middle,sometimes,sometimes,sometimes,sometimes,great,science-math,highschool,17,dormitory,bfmid,east,success
+male,front,never,never,sometimes,never,admission,art-math,highschool,19,dormitory,afmid,central,success
+female,front,never,often,never,sometimes,area,art-math,highschool,19,dormitory,afmid,northeast,fail
+female,middle,often,never,often,often,great,vocational,vocational,18,outside,bfmid,southern,success
+female,behind,sometimes,often,sometimes,sometimes,test,vocational,highschool,19,house,bfmid,north,fail
+male,behind,often,never,sometimes,never,test,art-language,highschool,19,outside,afmid,central,success
+female,middle,sometimes,sometimes,sometimes,?,area,art-math,highschool,17,dormitory,afmid,east,?
